@@ -1,0 +1,53 @@
+PSEUDOCODE
+
+CLASSES
+
+Customer: 
+	Variables: (private)
+		Name
+		ID
+	Methods:
+		getName
+		getID
+
+Bank:
+	Variables: (private)
+		Name
+	Methods:
+		Constructor
+		Get name
+		can take loan
+		calculate interest
+
+Account:
+	Variables:
+		Bank
+		Balance
+		Customer
+	Methods:
+		Constructor
+		withdrawl
+		deposit
+		display
+		get balance
+
+CODE (test)
+
+Create and store Customer
+Create and store Bank
+Create and store Account
+Deposit £100
+Withdraw £10
+Display balance
+Get the balance
+Deposit the balance
+Display balance
+
+Calaculate Interest:
+Return balance * (percent/100)
+
+Can Get Loan:
+if amount < 2*balance:
+	give loan
+else:
+	don't give loan 
