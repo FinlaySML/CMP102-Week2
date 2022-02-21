@@ -3,6 +3,9 @@
 Bank::Bank(std::string name){
 	this->name = name;
 }
+
+Bank::~Bank() {}
+
 std::string Bank::getName(){
 	return name;
 }

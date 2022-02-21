@@ -5,6 +5,9 @@ Customer::Customer(std::string name, int id) {
 	this->id = id;
 }
 
+Customer::~Customer() {
+}
+
 int Customer::getId(){
 	return id;
 }

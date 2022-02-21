@@ -26,22 +26,24 @@ Account:
 		Customer
 	Methods:
 		Constructor
-		withdrawl
-		deposit
-		display
-		get balance
+		Withdraw
+		Deposit
+		Display
+		Get balance
 
 CODE (test)
 
 Create and store Customer
 Create and store Bank
 Create and store Account
-Deposit £100
-Withdraw £10
-Display balance
-Get the balance
-Deposit the balance
-Display balance
+Menu loop:
+	0: Quit
+	1: Display balance
+	2: Deposit 
+	3: Withdraw 
+	4: Withdraw £10
+	5: Check for loan
+	6: Calculate Interest
 
 Calaculate Interest:
 Return balance * (percent/100)

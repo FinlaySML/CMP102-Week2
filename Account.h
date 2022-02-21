@@ -5,16 +5,18 @@
 #include "Customer.h"
 
 class Account {
-	Bank bank;
+	Bank* bank;
 	float balance;
-	Customer customer;
+	Customer* customer;
+	int id;
 public:
-	Account(Bank bank, float balance, Customer customer);
+	Account(Bank* bank, float balance, Customer* customer, int id);
+	~Account();
 	void deposit(float amount);
 	void withdraw(float amount);
+	void withdraw();
 	void display();
-	void canTakeLoan();
-	void calculateInterest(float percent);
 	float getBalance();
+	int getId();
 };
 
